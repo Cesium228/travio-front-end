@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+    background: url('assets/images/mainLines.svg') no-repeat;
+    background-size: cover;
+}
+
+.header .test-class {
+    padding: 90px 0;
+}
+
+.header .login-bar .container .login-bar-container .social-and-order {
+    margin-right: 10px;
+}
+
+.header .login-bar .container .login-bar-container .social-and-order a,
+.header .login-bar .container .login-bar-container .registration-and-login a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0c3122;
+}
+
+.header .login-bar .container .login-bar-container .registration-and-login .registration-link {
+    text-decoration: underline;
+}
+
+.header .login-bar .container .login-bar-container .social-and-order .create-order-link,
+.header .login-bar .container .login-bar-container .registration-and-login .login-link {
+    border: 1px solid #0c3122;
+    border-radius: 25px;
+    padding: 2px 20px;
+}
+
+.header .navbar .container .navbar-brand {
+    flex: 1 1 13%;
+    margin-right: 4rem;
+}
+
+.header .navbar .container .navbar-brand img {
+    width: 100%;
+}
+.navbar-brand img {
+    height: 90.55px;
+    width: 172px;
+}
+
+.header .navbar .container .navbar-collapse {
+    flex: 1 1 87%;
 }

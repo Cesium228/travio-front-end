@@ -1,0 +1,10 @@
+
+.ourPartnersText {
+    font-family: Open Sans;
+    font-size: 48px;
+    color: #1F3E1A;
+    font-style: normal;
+}
+.carousel-inner {
+ display: flex;
+}

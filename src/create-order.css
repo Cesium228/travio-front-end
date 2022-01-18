@@ -1,0 +1,34 @@
+
+.create-order {
+    background: #0C3122;
+    height: 353px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+.whiteLogo {
+    height: 121.08px;
+    padding-top: 116px;
+}
+.OfferText1 {
+    color: #FEFFE0;
+    height: 99px;
+    font-family: "Open Sans";
+    font-size: 24px;
+}
+.text5 {
+    color: #92C88A;
+    font-family: "Open Sans";
+    font-size: 12px;
+    height: 39px;
+}
+.btnOffer {
+
+}
+.create-order-link {
+    border-radius: 25px;
+    background: #FFFFFF;
+    color: #1F3E1A;
+    border: #1F3E1A;
+    height: 41px;
+}
+
